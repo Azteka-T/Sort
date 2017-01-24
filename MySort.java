@@ -17,7 +17,7 @@ public class MySort{
         //   double randomNum = (Math.random() * 30);
         // sortMe.add(randomNum);
         //}
-        sortMe.addAll(RandomArray(10000));
+        sortMe.addAll(RandomArray(10001));
     }
     
     private static ArrayList<Double> RandomArray(int n){
@@ -31,6 +31,7 @@ public class MySort{
         }
         return arrayRandom;
     }
+    
 
     public void printSortMe(){
         System.out.println("Your numbers are: ");
@@ -39,4 +40,6 @@ public class MySort{
             System.out.println(i);
         }
     }
+    
+    
 }
